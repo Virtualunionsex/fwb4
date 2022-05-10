@@ -1,12 +1,12 @@
 {
-  "name": "File Sharing Man",
+  "name": "File Sharing Karman",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/muhammadrizky16/pile-sharing1",
+  "repository": "https://github.com/ArmanGG01/fsub4",
   "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -15,7 +15,7 @@
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "IDnyaKosong"
+      "value": "PakkPoll"
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
@@ -51,7 +51,7 @@
     },
     "FORCE_SUB_GROUP": {
       "description": "Masukan ID dari Group Untuk Wajib Subscribenya",
-      "value": ""
+      "value": "-100"
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
@@ -63,22 +63,22 @@
     },
     "CHANNEL1":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "nastyproject",
+      "value": "DeployBot01",
       "required": false
     },
     "CHANNEL2":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "ahhsudahlahhh",
+      "value": "DeployBot01",
       "required": false
     },
     "CHANNEL3":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "InformationKyy",
+      "value": "DeployBot01",
       "required": false
     },
     "GROUP":{
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "nastysupportt",
+      "value": "obrolansuar",
       "required": false
     }
   },
