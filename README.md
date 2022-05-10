@@ -5,7 +5,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 
 ##
 
-**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@SharingUserbot](https://www.telegram.dog/SharingUserbot)**
+**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@obrolansuar](https://www.telegram.dog/obrolansuar)**
 
 ### Features
 - Sepenuhnya dapat dicustom.
@@ -26,21 +26,9 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 </h2>
 
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/Rizz990/Fsubs4"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>   </p>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/ArmanGG01/fsub4"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>   </p>
 
-**Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
-<a href="https://youtu.be/O2tieQgzYZg">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
-</a><br>
 
-#### Deploy in your VPS
-````bash
-git clone https://github.com/DIORrios285/DiorFilesharing
-cd DiorFilesharing
-pip3 install -r requirements.txt
-# <Create config.py appropriately>
-python3 main.py
-````
 
 ### Admin Commands
 
