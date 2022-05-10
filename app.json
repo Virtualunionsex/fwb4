@@ -39,7 +39,7 @@
     },
     "FORCE_SUB_CHANNEL1": {
       "description": "Masukan ID dari Channel Untuk Wajib Subscribenya",
-      "value": ""
+      "value": "-100"
     },
     "FORCE_SUB_CHANNEL2": {
       "description": "Masukan ID dari Channel Untuk Wajib Subscribenya",
