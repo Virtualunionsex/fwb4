@@ -11,7 +11,7 @@ from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from bot import Bot
-from config import ADMINS, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, FORCE_MSG, START_MSG
+from config import ADMINS, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, FORCE_MSG, PROTECT_CONTENT, START_MSG
 from database.sql import add_user, full_userbase, query_msg
 from helper_func import decode, get_messages, subscribed
 
@@ -98,6 +98,7 @@ async def start_command(client: Client, message: Message):
                     chat_id=message.from_user.id,
                     caption=caption,
                     parse_mode="html",
+                    protect_content=PROTECT_CONTENT,
                     reply_markup=reply_markup,
                 )
                 await asyncio.sleep(0.5)
@@ -107,6 +108,7 @@ async def start_command(client: Client, message: Message):
                     chat_id=message.from_user.id,
                     caption=caption,
                     parse_mode="html",
+                    protect_content=PROTECT_CONTENT,
                     reply_markup=reply_markup,
                 )
             except BaseException:
