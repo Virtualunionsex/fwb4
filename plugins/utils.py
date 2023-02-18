@@ -14,7 +14,6 @@ from config import (
     FORCE_MSG,
     FORCE_SUB_CHANNEL1,
     FORCE_SUB_GROUP,
-    HEROKU_APP_NAME,
     LOGGER,
     OWNER,
     PROTECT_CONTENT,
@@ -62,6 +61,5 @@ START_MSG = <code>{START_MSG}</code>
 FORCE_MSG = <code>{FORCE_MSG}</code>
 
 <u><b>HEROKU CONFIGVARS</b></u>
-HEROKU_APP_NAME = <code>{HEROKU_APP_NAME}</code>
     """
     await Man.edit_text(text)
