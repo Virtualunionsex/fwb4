@@ -56,7 +56,7 @@ ADMINS = <code>{ADMINS}</code>
     
 <u><b>CUSTOM VARS</b></u>
 CHANNEL_ID = <code>{CHANNEL_ID}</code>
-FORCE_SUB_CHANNELq = <code>{FORCE_SUB_CHANNEL1}</code>
+FORCE_SUB_CHANNEL1 = <code>{FORCE_SUB_CHANNEL1}</code>
 FORCE_SUB_GROUP1 = <code>{FORCE_SUB_GROUP1}</code>
 PROTECT_CONTENT = <code>{PROTECT_CONTENT}</code>
 START_MSG = <code>{START_MSG}</code>
