@@ -21,6 +21,9 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
+# PROTECT CONTENT
+PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
+
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "uurfavboys1")
 
