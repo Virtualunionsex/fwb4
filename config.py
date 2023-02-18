@@ -25,16 +25,16 @@ OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "uurfavboys1")
+OWNER = os.environ.get("OWNER", "PakkPoll")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL1 = os.environ.get("CHANNEL1", "nastyproject")
-CHANNEL2 = os.environ.get("CHANNEL2", "ahhsudahlahhh")
-CHANNEL3 = os.environ.get("CHANNEL3", "InformationKyy")
-GROUP = os.environ.get("GROUP", "nastysupportt")
+CHANNEL1 = os.environ.get("CHANNEL1", "Karc0de")
+CHANNEL2 = os.environ.get("CHANNEL2", "StoryMan01")
+CHANNEL3 = os.environ.get("CHANNEL3", "hemmmmm.")
+GROUP = os.environ.get("GROUP", "obrolansuar")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
